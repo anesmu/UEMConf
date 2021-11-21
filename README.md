@@ -2,4 +2,4 @@
 
 Academic project using Bootstrap as a technology
 
-Esta web esta publicada con gitHub pages. Puedes visitarla en https://anesmu.github.io/UEMConf/
+This website is published with gitHub pages. You can visit it at https://anesmu.github.io/UEMConf/
