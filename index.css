@@ -1,0 +1,87 @@
+:root {
+  --redDarkUEM: #b31010;
+  --redUEM: #f60202;
+  --redlightUEM: #df8888;
+}
+
+.navbar .navbar-brand img {
+  width: 80px;
+}
+
+.text-uem {
+  color: #881101e8 !important;
+}
+
+.btn-uem {
+  background-color:var(--redDarkUEM) !important;
+  color: white;
+}
+
+.btn-uem:hover {
+  background-color: var(--redUEM) !important;
+}
+
+.btn-outline-uem {
+  border: 2px solid var(--redlightUEM) !important;
+  color: var(--redDarkUEM);
+  background-color: transparent;
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .carousel-inner img {
+  max-height: 70vh;
+}
+
+#carousel img {
+  filter: grayscale(70%);
+}
+
+#carousel .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
+
+#speakers .card .badges {
+  margin-bottom: 0.5em;
+}
+
+#speakers img {
+  height: 348px;
+  object-fit: scale-down;
+}
+
+#speakers .card-body p
+{
+  height: 180px;
+}
+
+#place-time {
+  margin-top: 1em;
+  background-color: var(--redDarkUEM);
+  color: white;
+}
+
+#place-time img {
+  max-width: 100%;
+}
+
+#footer {
+  background: linear-gradient(90deg,var(--redDarkUEM),var(--redUEM) 25%,var(--redlightUEM));
+}
+
+#footer a {
+  color: white;
+}
